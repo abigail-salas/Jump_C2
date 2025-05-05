@@ -1,0 +1,25 @@
+body {
+  background-color: #1c2826;
+  color: #e5fcf5;
+}
+
+p {
+  font-family: fantasy;
+}
+
+h5 {
+  font-size: xx-large;
+  color: #ea9e8d;
+}
+
+.card-img {
+  background-color: #750d37;
+  text-align: center;
+  border: 2px solid #e5fcf5;
+  border-radius: 20px;
+}
+
+#inicio {
+  background-color: #638475;
+  font-size: x-large;
+}

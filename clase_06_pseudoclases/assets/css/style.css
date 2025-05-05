@@ -1,0 +1,134 @@
+:root {
+  --color-fondo: #000000;
+  --color-primario: #3d2645;
+  --color-secudario: #832161;
+  --color-terciario: #da4167;
+  --color-cuaternario: #f0eff4;
+  --color-quinario: #600e1f;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-cuaternario);
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  color: var(--color-terciario);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  background-color: var(--color-quinario);
+  border-radius: 10px;
+  margin: 10px 0px;
+}
+
+a {
+  display: block;
+  font-size: 17px;
+  text-decoration: none;
+  color: var(--color-quinario);
+  padding: 5px;
+}
+
+a:hover {
+  border: 2px solid var(--color-terciario);
+  color: var(--color-secudario);
+}
+
+a:visited {
+  color: var(--color-terciario);
+  text-decoration: underline;
+}
+
+@media (min-width: 578px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  .padre {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--color-primario);
+    margin: 30px 0px;
+    border-radius: 30px;
+  }
+
+  a {
+    font-size: 20px;
+    padding: 20px 0px;
+  }
+
+  p {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .padre {
+    gap: 50px;
+    padding: 30px;
+    border: 2px solid var(--color-secudario);
+  }
+
+  a {
+    font-size: 25px;
+    padding: 20px 0px;
+  }
+
+  p {
+    font-size: 30px;
+    padding: 20px;
+    margin: 20px 0px;
+    border: 3px solid var(--color-terciario);
+  }
+}
+
+/* a:hover {
+  font-weight: bold;
+  background-color: #600e1f;
+  color: rgb(208, 211, 215);
+  text-decoration: underline;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(231, 201, 164);
+}
+
+a:visited {
+  color: brown;
+}
+
+a:active {
+  color: cornflowerblue;
+}
+
+.hijo:hover {
+  background-color: aquamarine;
+}
+
+.padre div:nth-child(2) {
+  font-weight: bold;
+  font-family: fantasy;
+} 
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: indigo;
+  }
+} */

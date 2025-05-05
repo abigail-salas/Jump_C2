@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+  color: aliceblue;
+
+  /* background-image: url("../img/photo-1742943892627-f7e4ddf91224.avif"); */
+  background-size: cover;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-family: fantasy;
+
+  font-style: italic;
+}
+
+p {
+  color: cadetblue;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  font-family: "Orbitron", sans-serif;
+  font-size: x-large;
+}
+
+.centro {
+  text-align: center;
+}
+
+.tachado {
+  text-decoration: line-through;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+  border: 2px solid;
+}
+
+.interlineado {
+  line-height: 2;
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+div {
+  border: 2px solid darkslateblue;
+  width: 100px;
+  height: 100px;
+  display: inline;
+}
+
+span {
+  border: 2px solid darkred;
+  width: 100px;
+  height: 100px;
+  display: block;
+}

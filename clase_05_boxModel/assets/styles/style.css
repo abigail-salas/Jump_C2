@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  margin: 20px 30px 40px 50px;
+  padding: 10px;
+
+  background-color: brown;
+
+  border: 20px ridge rgb(201, 189, 189);
+
+  border-radius: 50px;
+
+  width: 200px;
+  height: 100%;
+}
+
+.contenedor {
+  border: solid 1px rgb(255, 255, 255);
+  padding: 5px;
+  display: inline-block;
+  font-size: 32px;
+  font-family: fantasy;
+
+  width: 100px;
+  height: 100px;
+
+  overflow: auto;
+}

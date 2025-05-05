@@ -1,0 +1,117 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+  margin: 20px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.boxes1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxes2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.boxes3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.boxes4 {
+  display: flex;
+  flex-direction: column-reverse;
+
+  align-items: center;
+  justify-content: end;
+
+  height: 700px;
+}
+
+.alignItems {
+  display: flex;
+  height: 300px;
+  border: 3px double darkred;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.alignItems div {
+  text-align: center;
+}
+
+.presentacion {
+  display: flex;
+  justify-content: center;
+  border: 2px dotted gray;
+  align-items: end;
+  background-image: url(../img/photo-1558981852-426c6c22a060.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.contenido {
+  text-align: center;
+  font-size: 1.5em;
+  height: 7em;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.422);
+  text-shadow: 3px 3px black;
+  color: rgba(255, 255, 255, 0.805);
+  padding: 1em;
+}
+
+menu {
+  background-color: rgb(57, 17, 86);
+  width: 10em;
+  min-height: 100vh;
+}
+
+menu li {
+  padding: 3em;
+  list-style: none;
+}
+
+menu a {
+  text-decoration: none;
+  color: azure;
+  font-size: 1.5em;
+}
+
+menu a:hover {
+  color: rgb(140, 140, 140);
+}
+
+menu ul {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-evenly;
+}
+
+.padre {
+  display: flex;
+}
+
+header {
+  margin: 0px 1em;
+}
