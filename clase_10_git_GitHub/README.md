@@ -33,13 +33,14 @@ git config --global user.email "emailDeGitHub@mail.com"
 ### Verificar que todo esté correcto:
 
 - ```bash
-    git config --list
+      git config --list
   ```
 > [!NOTE]
 > Devuelve una lista completa de configuracion de usuario
 
+
 - ```bash
-    git config user.name
+      git config user.name
   ```
 > [!NOTE]
 > Devuelve tu nombre de usuario
@@ -133,3 +134,23 @@ Cada vez que realices un cambio importante en tu código, se realizan los siguie
    ```bash
    git push origin main
    ```
+
+## Otros comandos utiles de Git
+
+- Ver en qué estado esta el repositorio
+
+```bash
+git status
+```
+
+- Ver el historial de commits
+
+```bash
+git log
+```
+
+- Clonar un repositorio (URL de ejemplo)
+
+```bash
+git clone https://github.com/mouredev/hello-git.git
+```
