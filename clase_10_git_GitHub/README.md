@@ -13,8 +13,8 @@
 
 - `mkdir nombreCarpeta`: Crea una nueva carpeta
 - `touch nombreArchivo`: Crea un nuevo archivo
-  > [!WARNING]
-  > Tiene que incluir SIEMPRE el tipo de archivo, por ejemplo .html, .css, .md
+> [!WARNING]
+> Tiene que incluir SIEMPRE el tipo de archivo, por ejemplo .html, .css, .md
 
 ## Configurando Git por primera vez
 
@@ -35,15 +35,14 @@ git config --global user.email "emailDeGitHub@mail.com"
 - ```bash
     git config --list
   ```
-
-  > [!NOTE]
-  > Devuelve una lista completa de configuracion de usuario
+> [!NOTE]
+> Devuelve una lista completa de configuracion de usuario
 
 - ```bash
     git config user.name
   ```
-  > [!NOTE]
-  > Devuelve tu nombre de usuario
+> [!NOTE]
+> Devuelve tu nombre de usuario
 
 ## Inicializando un nuevo proyecto/Repositorio con comandos que nos da GitHub por default
 
@@ -56,7 +55,6 @@ git branch -M main
 git remote add origin https://github.com/abigail-salas/Jump-C2.git
 git push -u origin main
 ```
-
 > [!NOTE]
 > ↑↑↑↑↑ Serie de comandos que da github a la hora de crear un nuevo repositorio
 
@@ -90,7 +88,8 @@ git push -u origin main
 
 ## Inicializando un nuevo proyecto/Repositorio con comandos propios
 
-> [!CAUTION] > **Se utiliza una sola vez de manera _OBLIGATORIA_**
+> [!CAUTION] 
+> **Se utiliza una sola vez de manera _OBLIGATORIA_**
 
 1. Inicializa un nuevo repositorio de Git en el directorio indicado
 
