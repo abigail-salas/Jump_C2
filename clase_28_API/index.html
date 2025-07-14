@@ -9,15 +9,20 @@
     <div>
       <h1>Datos del clima</h1>
       <form class="form">
-        <input type="text" placeholder="Escribí tu ciudad" id="city-input"/>
+        <input type="text" placeholder="Escribí tu ciudad" id="city-input" />
         <button type="submit">Buscar</button>
       </form>
-      <div>
-        <h2 class="city-name"></h2>
-        <img src="" alt="" class="icon" />
-        <p class="temperature"></p>
-        <p class="description"></p>
-      </div>
+
+      <section id="cards-container"></section>
+
+      <template id="clima-template">
+        <div class="card">
+          <h2 class="city-name"></h2>
+          <img src="" alt="" class="icon" />
+          <p class="temperature"></p>
+          <p class="description"></p>
+        </div>
+      </template>
     </div>
 
     <script src="./script.js"></script>
